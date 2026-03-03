@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanitha Lakshmi N | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="particles-js"></div>
+
+    <nav class="navbar">
+    <a href="#home" class="nav-logo" style="text-decoration: none;">
+        My<span>Portfolio</span>
+    </a>
+
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#resume-section">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+   <section id="home">
+    <div class="hero-content">
+        <h1 class="glitch-text">HI, I'M VANITHA LAKSHMI N</h1>
+        
+        <h2 class="dynamic-wrapper">
+            I AM <span id="typewriter" class="accent-text"></span>
+            <span class="cursor">|</span>
+        </h2>
+
+        <p class="hero-description">
+            Aspiring CSE Engineer eager to apply technical skills to solve real-world problems.
+        </p>
+        <p class="hero-description">
+            Keen to implement knowledge in project building in the real world.
+        </p>
+    </div>
+</section>
+
+  <section id="about" class="reveal">
+    <h2 class="section-title">Education</h2>
+    <div class="grid-container">
+        <div class="glass-card">
+            <h3>B.E. Computer Science</h3>
+            <p>Government Engineering College | Challakere</p>
+            <p class="highlight">GPA: 8.50 (2022-2026)</p>
+        </div>
+        <div class="glass-card">
+            <h3>Pre-University</h3>
+            <p>SRS PU College | Challakere</p>
+            <p class="highlight">Score: 93.33%</p>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="reveal">
+    <h2 class="section-title">Projects</h2>
+    <div class="grid-container">
+        <div class="glass-card">
+            <h3>HealthCare Application</h3>
+            <p>Telemedicine platform for rural families[cite: 64].</p>
+            <a href="https://healthcare601.netlify.app" target="_blank" class="accent-text">Live Project ↗</a>
+        </div>
+        <div class="glass-card">
+            <h3>GreenPath</h3>
+            <p>Eco-friendly route finder for low-emission travel[cite: 70].</p>
+        </div>
+        <div class="glass-card">
+            <h3>AI Career Growth</h3>
+            <p>AI-powered e-learning platform with sentiment analysis[cite: 68].</p>
+        </div>
+    </div>
+</section>
+
+<section id="achievements" class="reveal">
+    <h2 class="section-title">Achievements</h2>
+    <div class="grid-container">
+        <div class="glass-card">
+            <h3>SIH 2025</h3>
+            <p>3rd Winner in Internal Hackathon.</p>
+        </div>
+        <div class="glass-card">
+            <h3>Certifications</h3>
+            <p>EY Microsoft AI Skills Passport & Deloitte Data Analytics[cite: 77, 78].</p>
+        </div>
+    </div>
+</section>
+  <section id="resume-section" class="reveal">
+    <h2 class="section-title">Resume</h2>
+    <div class="glass-card" style="max-width: 800px; margin: 0 auto; text-align: center;">
+        <h3>VANITHA LAKSHMI N</h3>
+        <p>B.E. Computer Science & Engineering | GPA: 8.50</p>
+        
+        <div class="hero-btns" style="justify-content: center; margin-top: 20px;">
+            <a href="VANITHA_BE_CSE_2026.pdf" target="_blank" style="text-decoration: none;">
+                <button type="button" class="btn-outline">View Fullscreen ↗</button>
+            </a>
+            
+            <a href="VANITHA_BE_CSE_2026.pdf" download="Vanitha_Lakshmi_Resume.pdf" style="text-decoration: none;">
+                <button type="button" class="btn-primary">Download PDF ↓</button>
+            </a>
+        </div>
+    </div>
+</section>
+
+    <section id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <form id="pingForm">
+            <input type="text" id="userName" placeholder="Your Name" required>
+            <input type="email" id="userEmail" placeholder="Your Email" required>
+            <textarea id="userMsg" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" id="sendBtn">Send message</button>
+        </form>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
