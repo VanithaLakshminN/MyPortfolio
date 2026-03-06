@@ -7,7 +7,7 @@ const Projects = () => {
       title: 'GreenPath Login System',
       desc: 'A robust authentication system utilizing a custom MySQL schema, complete with secure routing and data handling.',
       tech: ['Node.js', 'Express', 'MySQL', 'Nodemailer'],
-      github: 'https://github.com/VanithaLakshminN/greenpath_login'
+      github: 'https://github.com/VanithaLakshminN/GreenPath'
     },
     {
       title: 'Developer Portfolio',
